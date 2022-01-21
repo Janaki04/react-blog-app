@@ -2,10 +2,10 @@ import { useState, useContext } from 'react'
 import {useNavigate } from 'react-router-dom';
 import { Createcontext } from "./Createcontext";
 export default function Travel() {
-    // const [start, setStart] = useState([]);
+    
     const [data] = useContext(Createcontext);
 
-    const [load, setLoad] = useState(false);
+    const [load, setLoad] = useState(true);
     const btnclick = () => {
 
         setLoad(true)

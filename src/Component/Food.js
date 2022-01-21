@@ -5,7 +5,7 @@ export default function Food() {
     
     const [data] = useContext(Createcontext);
 
-    const [load, setLoad] = useState(false);
+    const [load, setLoad] = useState(true);
     const btnclick = () => {
 
         setLoad(true)

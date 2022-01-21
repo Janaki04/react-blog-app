@@ -227,9 +227,6 @@ ul li{
     height: 475px;
     border-radius: 4px
 }
-/* .dataing{
-    position: absolute;
-} */
  .left{
     width: 500px;
     height: 1000px;
@@ -283,9 +280,9 @@ ul li{
     border: 1px solid black;
     background-color: white;
     position: absolute;
-    top: 1227px;
+    top: 1327px;
     left: 954px;
-    height: 566px;
+    height: 466px;
     width: 300px;
 }
 .deets{
@@ -356,7 +353,7 @@ ul li{
 }
 
 
-@media screen and (min-width:360px) and (max-width:640px) {
+@media screen and (min-width:360px) and (max-width:740px) {
     html{
         font-size: 70%;
     }
@@ -526,11 +523,9 @@ ul li{
     margin-left: 0em;
     font-size: medium;
 }
-/* .descriptionlatest{
-    display: none;
-} */
+
 .boxlatest {
-    /* border: 2px solid green; */
+    
     display: inline-block;
 }
 .postadd{
@@ -562,10 +557,7 @@ ul li{
 .storieshead{
     margin-bottom: 2em;
 }
-/* .storieshead {
-    margin-top: 143em;
-    border: 2px solid lightsalmon;
-} */
+
 .headingofstories {
 
     margin-top: 72em;
@@ -642,7 +634,5 @@ ul li{
 .paradeets{
     font-size: medium;
 }
-/* .extra{
-    width: 30em;
-} */
+
 }

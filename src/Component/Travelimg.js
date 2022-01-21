@@ -8,7 +8,7 @@ export default function Travelimg() {
     let store=useNavigate()
     return (
         <div className='travelimage'>
-            {data.filter((value) => value.Id ==='1').map(items =>
+            {data.filter((value) => value.Id ==='7').map(items =>
             
                 <div  key={items.Id}className='disp2'  onClick={() => store(`/category/${items.Id}`)}>  
                     <img className='bigimg' src={items.imageurl} alt=''/>

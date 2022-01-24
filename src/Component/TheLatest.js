@@ -3,7 +3,7 @@ import {useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 export default function TheLatest() {
-    // const [start, setStart] = useState([]);
+    
     const [data] = useContext(Createcontext);
     let store=useNavigate();
 
@@ -18,7 +18,7 @@ export default function TheLatest() {
                         <p className='title'> {items.title} </p>
                         <p className='description'>{items.description}</p>
                         <p className='category,date'>{items.category}/{items.date}</p>
-                        {/* <p className='date'>{items.date}</p> */}
+                        
 
                     </div>)}
             </div>

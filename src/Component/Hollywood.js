@@ -2,7 +2,7 @@ import { useState, useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Createcontext } from "./Createcontext";
 export default function Hollywood() {
-    // const [start, setStart] = useState([]);
+    
     const [data] = useContext(Createcontext);
 
     const [load, setLoad] = useState(true);

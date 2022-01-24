@@ -354,6 +354,22 @@ ul li{
 
 
 @media screen and (min-width:360px) and (max-width:740px) {
+    .nav-box{
+        position: relative;
+        left: 10px;
+    }
+    .heading{
+        position: relative;
+        left: 90px;
+
+    }
+    .heading1{
+        position: relative;
+        left: 120px;
+        font-size: 70px;
+        
+
+    }
     html{
         font-size: 70%;
     }
@@ -460,7 +476,7 @@ ul li{
     
 
     position: absolute;
-    top: 24em;
+    top: 240px;
     left: 0em;
 }
 .box{
@@ -536,9 +552,10 @@ ul li{
 }
 .up{
    
-    margin-left: 0em;
+    /* margin-left: 0em;
     border: 3px solid white;
-    margin-top: 79em;
+    margin-top: 79px; */
+    display: none;
 }
 .headingoftoppost {
     margin-right: 11em;

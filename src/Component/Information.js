@@ -4,7 +4,7 @@ import {  useContext } from 'react'
 import { Createcontext } from "./Createcontext";
 
 export default function Information() {
-    // const [start] = useState([]);
+   
     const [data] = useContext(Createcontext);
 
     const { id } = useParams();
@@ -18,7 +18,7 @@ export default function Information() {
                     <div className='deets'>
                         <h1 className='titleinfo'>{items.title}</h1>
                         <div>
-                            {/* <h4 className='sharing'>{items.share}</h4> */}
+                            
                             <span className='insta'>
                                 <i class="fab fa-instagram"></i>
                             </span>
@@ -32,6 +32,7 @@ export default function Information() {
                         <img className='extra' src={items.extra} alt='' />
                         <p className='paradeets'>{items.details}</p>
                         <img className='imagedeets' src={items.detailsimage} alt='' />
+                       
                     </div>
 
 

@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 export default function Travelimg() {
-    // const [start] = useState([]);
+    
     const [data] = useContext(Createcontext);
     let store=useNavigate()
     return (
